@@ -8,10 +8,10 @@
 
 <h3>How to use :</h3>
   <p>Dfine a new module</p> 
-  <pre>
-    Ioc.define('moduleName', function(injecttions){
-        return {
-            //your functions
-        }
-    })
-  </pre>
+<pre>
+Ioc.define('moduleName', function(injecttions){
+   return {
+      //your functions
+   }
+})
+</pre>
