@@ -7,8 +7,7 @@
 [=== ONLINE DEMO ===](http://htmlpreview.github.io/?https://github.com/abizebel/ioc-container/blob/master/index.html)
 
 <h3>How to use :</h3>
-<ul>
-  <li>Dfine a new module</li> 
+  <p>Dfine a new module</p> 
   <pre>
     Ioc.define('moduleName', function(injecttions){
         return {
@@ -16,6 +15,3 @@
         }
     })
   </pre>
-
- 
-</ul>
