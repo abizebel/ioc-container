@@ -5,3 +5,17 @@
 
 
 [=== ONLINE DEMO ===](http://htmlpreview.github.io/?https://github.com/abizebel/ioc-container/blob/master/index.html)
+
+<h3>How to use :</h3>
+<ul>
+  <li>Dfine a new module</li> 
+  <pre>
+    Ioc.define('moduleName', function(injecttions){
+        return {
+            //your functions
+        }
+    })
+  </pre>
+
+ 
+</ul>
