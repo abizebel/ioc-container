@@ -9,7 +9,7 @@
 <h3>How to use :</h3>
   <p>Dfine a new module</p> 
 <pre>
-Ioc.define('<span style="color:red">moduleName</span>', function(injecttions){
+Ioc.define('![#f03c15]moduleName`#f03c15`', function(injecttions){
    return {
       //your functions
    }
