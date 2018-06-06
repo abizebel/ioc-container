@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="ioc.js"></script>
+    <script src="modules/module.person.js"></script>
+    <script src="modules/module.taxi.js"></script>
+    <script src="modules/module.gasoline.js"></script>
+
+</head>
+<body>
+    <script>
+        var person = Ioc.getModule('person');    
+        person.goToWork();
+        console.log(Ioc.getInjects('person'))
+    </script>
+</body>
+</html>
