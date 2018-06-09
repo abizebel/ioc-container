@@ -12,9 +12,8 @@ var Ioc = (function () {
     var cache = {};
     /* 
      *@ injector tasks :
-     *@ 1- annotate : instnaciate injection modules for factory function
-     *@ 2- create factory instance with injected modules
-     *@ 3- check if factory has injectables then instnaciate it again with injections arguments
+     *@ 1- annotate : find && instnaciate injection modules 
+     *@ 2- check injection : check if factory has injectables then instnaciate it again with injections arguments
      */
     var injector = {
          /*
