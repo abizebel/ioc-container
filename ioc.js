@@ -1,5 +1,5 @@
 /*******************************************************************************************
- * @ Name : Angular dependency injection
+ * @ Name : IOC Container
  * @ Author : Abbas Hosseini
  * @ Description : A simple library that support dependency injection with angular syntax
  * @ Version : 1.0.0
