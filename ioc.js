@@ -1,7 +1,7 @@
 /*******************************************************************************************
  * @ Name : IOC Container
  * @ Author : Abbas Hosseini
- * @ Description : A simple library that support dependency injection with angular syntax
+ * @ Description : A simple library that support dependency injection 
  * @ Version : 1.0.0
  * @ Last update : Thursday - 2018 08 February
  ******************************************************************************************/
